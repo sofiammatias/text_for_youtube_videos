@@ -1,0 +1,35 @@
+[logger]
+
+# Level of logging: 'error', 'warning', 'info', or 'debug'.
+# Default: 'info'
+level = "info"
+
+# String format for logging messages. If logger.datetimeFormat is set,
+# logger messages will default to `%(asctime)s.%(msecs)03d %(message)s`. See
+# Python's documentation for available attributes:
+# https://docs.python.org/2.6/develop/logging.html#formatter-objects
+# Default: "%(asctime)s %(message)s"
+messageFormat = "%(asctime)s %(message)s"
+
+[mapbox]
+
+# Configure Streamlit to use a custom Mapbox
+# token for elements like st.pydeck_chart and st.map.
+# To get a token for yourself, create an account at
+# https://mapbox.com. It's free (for moderate usage levels)!
+# Default: ""
+
+token="pk.eyJ1Ijoic29maWFtbWF0aWFzIiwiYSI6ImNsZ3Vwa3RsMTJmbmozZW1tbHYxemE0NnAifQ.q_gigshe8O2cIOZfJc5k2A"
+
+[theme]
+# Primary accent for interactive elements
+primaryColor = '#4BA3FF'
+
+# Background color for the main content area
+backgroundColor = '#0E1117'
+
+# Color used for almost all text
+textColor = '#FAFAFA'
+
+# Secondary background color for the sidebar area
+secondaryBackgroundColor = '#242525'
